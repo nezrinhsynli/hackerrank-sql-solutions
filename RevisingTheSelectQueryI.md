@@ -1,7 +1,6 @@
-<span style="color:red; font-size:38px;">**Task:**</span>
-
-### Query all columns for all American cities in the **CITY** table with populations larger than 100000. The **CountryCode** for America is USA.
-### The **CITY** table is described as follows:
+## **Task:**
+#### Query all columns for all American cities in the **CITY** table with populations larger than 100000. The **CountryCode** for America is USA.
+#### The **CITY** table is described as follows:
 
 ```sql
 CREATE TABLE CITY (
@@ -13,7 +12,7 @@ CREATE TABLE CITY (
 );
 ```
 
-<span style="color:red; font-size:38px;">**Solution:**</span>
+## **Solution:**
 
 ```sql
 SELECT * FROM city WHERE countrycode = 'USA' AND population > 100000
