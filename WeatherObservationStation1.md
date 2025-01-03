@@ -10,6 +10,7 @@ CREATE TABLE STATION (
     LONG_W NUMERIC
 );
 ```
+#### where LAT_N is the northern latitude and LONG_W is the western longitude.
 ## **Solution:**
 ```sql
 SELECT CITY, STATE FROM STATION;
